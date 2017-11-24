@@ -3,6 +3,8 @@
 #include "string/StringTest.h"
 #include "dynaticPtr/DynamicTest.h"
 #include "dynaticPtr/CircularReference.h"
+#include "standardTemplateLibrary/Vec1.h"
+#include "standardTemplateLibrary/Vec2.h"
 
 int main()
 {
@@ -35,14 +37,23 @@ int main()
 
     //---------------------------------------------------
 
-    DynamicTest dynamicTest;
+//    DynamicTest dynamicTest;
 //    dynamicTest.tryAutoPtr();
 //    dynamicTest.trySharedPtr();
 //    dynamicTest.tryUniquePtr();
-    dynamicTest.tryWeakPtr();
+//    dynamicTest.tryWeakPtr();
 
 //    CircularReference circularReference;
 //    circularReference.testCircularRef();
+//
+//    Vec1 vec1;
+//    vec1.createAndPrintArray(2);
+
+    Vec2 vec2;
+    vec2.fillAndShowReview();
+
+
+
     return 0;
 
 }
